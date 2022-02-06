@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
+}
+
+.container {
+    background-color: black;
+    color: lightgray;
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    padding: 5px;
+}
+
+.nav:hover {
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        height: 7vh;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 10px;
+    }
+
+    .nav {
+        padding: 10px;
+    }
+
+}
+
+
+/* Notes:
+
+
+To-Do: */
